@@ -1,0 +1,153 @@
+
+# 📘 Task 8 — Clustering with K-Means
+
+## 📌 Project Overview
+
+This project is completed as part of the **AI & ML Internship Program**.
+The objective of this task is to perform **unsupervised learning** using the **K-Means Clustering algorithm** to discover patterns and group similar data points without labeled outputs.
+
+The project demonstrates dataset visualization, optimal cluster selection, clustering evaluation, and interpretation of results.
+
+---
+
+## 🎯 Objectives
+
+* Load and explore dataset
+* Visualize data distribution (optional PCA for 2D visualization)
+* Apply K-Means clustering
+* Determine optimal number of clusters using Elbow Method
+* Visualize clusters using color coding
+* Evaluate clustering using Silhouette Score
+
+---
+
+## 🧠 Concepts Covered
+
+* Unsupervised Learning
+* K-Means Clustering
+* Cluster Centroids
+* Elbow Method
+* Inertia
+* Silhouette Score
+* Data Visualization
+* Cluster Evaluation
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Jupyter Notebook
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+```
+Task8-KMeans/
+│
+├── task8.ipynb        # Main notebook implementation
+├── dataset.csv        # Mall Customer Segmentation dataset
+├── README.md          # Project documentation
+└── screenshots/       # Output graphs (optional)
+```
+
+---
+
+## 📊 Dataset
+
+This project uses the **Mall Customer Segmentation Dataset**.
+
+Dataset Purpose:
+
+* Group customers based on spending behavior and income patterns.
+
+Example Features:
+
+* Customer Age
+* Annual Income
+* Spending Score
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/task8-kmeans.git
+cd task8-kmeans
+```
+
+### 2️⃣ Install Required Libraries
+
+```bash
+pip install numpy pandas matplotlib scikit-learn notebook
+```
+
+### 3️⃣ Run Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```
+task8.ipynb
+```
+
+---
+
+## 🚀 Implementation Steps
+
+### Step 1: Data Loading
+
+* Import dataset using Pandas
+* Explore dataset structure
+
+### Step 2: Data Visualization
+
+* Plot feature relationships
+* Optional PCA for 2D visualization
+
+### Step 3: Apply K-Means
+
+* Initialize K-Means model
+* Fit model and assign cluster labels
+
+### Step 4: Elbow Method
+
+* Compute inertia values
+* Identify optimal number of clusters (K)
+
+### Step 5: Cluster Visualization
+
+* Plot clusters using color coding
+* Display cluster centroids
+
+### Step 6: Evaluation
+
+* Calculate Silhouette Score
+* Analyze clustering quality
+
+---
+
+## 📈 Results
+
+* Optimal clusters determined using Elbow Method.
+* Customers segmented into meaningful groups.
+* Silhouette Score used to validate clustering performance.
+
+---
+
+## ✅ Key Learnings
+
+* Understanding unsupervised learning techniques
+* Identifying hidden data patterns
+* Cluster evaluation methods
+* Practical implementation of K-Means.
