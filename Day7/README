@@ -1,0 +1,152 @@
+
+# 📘 Task 7 — Support Vector Machines (SVM)
+
+## 📌 Project Overview
+
+This project is part of the **AI & ML Internship Program**.
+The objective of this task is to implement **Support Vector Machine (SVM)** models for both **linear** and **non-linear classification** problems using Python and Scikit-learn.
+
+The project demonstrates how SVM works, how kernels affect decision boundaries, and how hyperparameter tuning improves model performance.
+
+---
+
+## 🎯 Objectives
+
+* Load and preprocess a dataset for binary classification
+* Train SVM models using:
+
+  * Linear Kernel
+  * RBF (Radial Basis Function) Kernel
+* Visualize decision boundaries
+* Perform hyperparameter tuning
+* Evaluate model using cross-validation
+
+---
+
+## 🧠 Concepts Covered
+
+* Support Vectors
+* Margin Maximization
+* Kernel Trick
+* Linear vs Non-Linear Classification
+* Hyperparameter Tuning (C & Gamma)
+* Cross Validation
+* Overfitting Control
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Jupyter Notebook
+* NumPy
+* Pandas
+* Matplotlib
+* Scikit-learn
+
+---
+
+## 📂 Project Structure
+
+```
+Task7-SVM/
+│
+├── task7.ipynb        # Main implementation notebook
+├── dataset.csv        # Dataset used (Breast Cancer Dataset)
+├── README.md          # Project documentation
+└── screenshots/       # Output visualizations (optional)
+```
+
+---
+
+## 📊 Dataset
+
+The project uses the **Breast Cancer Dataset** for binary classification.
+
+Dataset Source:
+[https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset](https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset)
+
+Target:
+
+* Predict whether a tumor is **Malignant** or **Benign**.
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/task7-svm.git
+cd task7-svm
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+pip install numpy pandas matplotlib scikit-learn notebook
+```
+
+### 3️⃣ Run Jupyter Notebook
+
+```bash
+jupyter notebook
+```
+
+Open:
+
+```
+task7.ipynb
+```
+
+---
+
+## 🚀 Implementation Steps
+
+### Step 1: Data Loading
+
+* Import dataset
+* Check missing values
+* Split features and target
+
+### Step 2: Data Preprocessing
+
+* Train-test split
+* Feature scaling using StandardScaler
+
+### Step 3: Model Training
+
+* Train SVM with Linear Kernel
+* Train SVM with RBF Kernel
+
+### Step 4: Visualization
+
+* Plot decision boundary using 2D features
+
+### Step 5: Hyperparameter Tuning
+
+* Tune parameters:
+
+  * `C`
+  * `gamma`
+
+### Step 6: Model Evaluation
+
+* Accuracy score
+* Cross-validation
+
+---
+
+## 📈 Results
+
+* Linear SVM works well for linearly separable data.
+* RBF kernel captures complex non-linear patterns.
+* Proper tuning of `C` and `gamma` improves generalization.
+
+
+## ✅ Key Learnings
+
+* Understanding maximum margin classifiers
+* Kernel-based learning
+* Model optimization techniques
+* Visualization of classification boundaries
